@@ -1,0 +1,88 @@
+1
+import turtle
+t = turtle.Turtle()
+
+t.home()
+t.clear()
+
+t.forward(100)
+t.left(90)
+t.forward(100)
+
+def.rect(x, y, a):
+
+def.rect(x, y, a): 
+   t.up()
+   t.home()
+   t.forward(x)
+   t.left(90)
+   t.forward(y)
+   t.down()
+   for i in range(4):
+      t.forward(a)
+      t.left(-90)
+#空行
+
+t.clear()
+rect(10, 10, 100)     
+rect(10, -110, 100)    
+rect(-110, 10, 100)    
+rect(-110, -110, 100)    
+    
+ 168　6面体のさいころ\Dice"を作る。
+class Dice:
+   face_num = 6
+   def shoot(self):
+      return random.randint(1, self.face_num)   
+#空行
+
+import random
+aDice = Dice()
+aDice.shoot()
+
+クラスclassを元にオブジェクトを作る。
+
+問題169n面体のさいころにする。
+
+class Dice:
+   def __init__(self, val):
+      self.face_num = val
+   def shoot(self):
+      return random.randint(1, self.face_num)
+      
+ aDice = Dice(12)
+ aDice.shoot()
+ 
+ 問題170Diceのクラス図を描け
+ 
+ 
+ 問題171新しいデータ型の定義は，（class  ）キーワードで始めます。（教科書）
+ 
+ 問題172メソッドを追加する場合は，1つ目の引数に必ず（self  ）を指定します
+ 
+ 問題173初期化メソッドの実体は，（＿＿ init＿＿  ）という名前のメソッドです
+ 
+ 問題178コマンドプロンプトの編集機能について説明せよ
+ やめる
+ 
+ 問題179  Pythonインタラクティブシェルを起動してみましょう。（教科書
+ python
+ 
+ 
+ 問題181シェルのようなキーボードで操作するインターフェースを，（CUI  ）と呼びます。（教科書
+ 対立する概念　GUI
+ 
+ 問題182コマンドライン引数を取り出す以下のプログラムをc:\cit\argv.pyという名前で保存せよ。
+ 
+ 問題183以下のプログラムをc:\cit\argv2.pyという名前で保存し，
+ import sys
+ 
+ input_list = sys.argv[1:]
+ print(input_list)
+ 
+ 
+ 問題184コマンドライン引数で指定した数を出力するプログラムnum.pyを書け。「python num.py 1 10」とすると1から10までの整数が，「python num.py 5 13」とすると5から13までの整数が出力されるようにせよ
+ 
+ 
+ 
+ 
